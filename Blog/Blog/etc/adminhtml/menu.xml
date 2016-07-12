@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+    <add id="MageBuzz_Blog::blog" title="MageBuzz Blog" module="MageBuzz_Blog" sortOrder="50" resource="MageBuzz_Blog::blog" />
+    <add id="MageBuzz_Blog::post" title="Blog Post" module="MageBuzz_Blog" sortOrder="20" parent="MageBuzz_Blog::blog" action="blog/post" resource="MageBuzz_Blog::post"/>
+  </menu>
+</config>
